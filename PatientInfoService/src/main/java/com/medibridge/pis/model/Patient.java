@@ -1,4 +1,4 @@
-package com.medibridge.model;
+package com.medibridge.pis.model;
 
 import org.hibernate.annotations.GenericGenerator;
 
