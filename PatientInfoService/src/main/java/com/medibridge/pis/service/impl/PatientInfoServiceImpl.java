@@ -1,12 +1,13 @@
-package com.medibridge.service.impl;
+package com.medibridge.pis.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.medibridge.model.Patient;
-import com.medibridge.repository.PatientRepository;
-import com.medibridge.service.PatientInfoService;
+
+import com.medibridge.pis.model.Patient;
+import com.medibridge.pis.repository.PatientRepository;
+import com.medibridge.pis.service.PatientInfoService;
 
 @Service
 public class PatientInfoServiceImpl implements PatientInfoService{

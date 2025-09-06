@@ -1,8 +1,8 @@
-package com.medibridge.service;
+package com.medibridge.pis.service;
 
 import java.util.List;
 
-import com.medibridge.model.Patient;
+import com.medibridge.pis.model.Patient;
 
 public interface PatientInfoService {
 	public Patient updateDetails(Patient Patient , String patientId);
