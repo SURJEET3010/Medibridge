@@ -23,6 +23,11 @@ import org.hibernate.annotations.Parameter;
 @AllArgsConstructor
 public class Patient {
 
+	String sts = "";
+	Patient(String s)
+	{
+		sts = s + "45678";
+	}
 
 	@Id
 //	@GeneratedValue(generator = PatientCustomIdGenerator.GENERATOR_NAME)
