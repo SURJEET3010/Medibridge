@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.medibridge.pis.model.Patient;
+import com.medibridge.pis.model.Project1;
 import com.medibridge.pis.repository.PatientRepository;
 import com.medibridge.pis.service.PatientInfoService;
 
@@ -18,6 +19,11 @@ public class PatientInfoServiceImpl implements PatientInfoService{
 	@Override
 	public Patient updateDetails(Patient patient, String patientId){
 		
+		Project1 project =new Project1(
+				"name",
+				"anup+"
+				);
+		
 		boolean bool = patientRepo.existsById(patientId);
 		if(!bool) {
 //			throw new PatientServiceException("Given patient Id does not exist "+patientId);
@@ -27,6 +33,8 @@ public class PatientInfoServiceImpl implements PatientInfoService{
 		Patient result = patientRepo.save(patient);
 		return result;
 	}
+	
+	
 
 	// Service for fetching patientpatientRepo info with the help of Id
 	@Override
