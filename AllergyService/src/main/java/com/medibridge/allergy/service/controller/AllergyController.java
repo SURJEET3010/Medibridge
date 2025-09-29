@@ -1,4 +1,4 @@
-package com.medibridge.pas.comtroller;
+package com.medibridge.allergy.service.controller;
 
 import java.util.List;
 
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.medibridge.pas.entity.Allergy;
-import com.medibridge.pas.service.AllergyService;
+import com.medibridge.allergy.service.entity.Allergy;
+import com.medibridge.allergy.service.services.AllergyService;
 
 @RestController
-@RequestMapping("/allergy-service/api/v1")
+//@RequestMapping("/allergy-service/api/v1")
 public class AllergyController {
 
 	@Autowired

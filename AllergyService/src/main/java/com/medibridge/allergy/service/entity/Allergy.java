@@ -1,4 +1,4 @@
-package com.medibridge.pas.entity;
+package com.medibridge.allergy.service.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

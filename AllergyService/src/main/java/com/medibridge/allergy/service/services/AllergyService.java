@@ -1,8 +1,8 @@
-package com.medibridge.pas.service;
+package com.medibridge.allergy.service.services;
 
 import java.util.List;
 
-import com.medibridge.pas.entity.Allergy;
+import com.medibridge.allergy.service.entity.Allergy;
 
 public interface AllergyService {
 

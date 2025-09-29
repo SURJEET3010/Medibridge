@@ -1,4 +1,4 @@
-package com.medibridge.pas.entity;
+package com.medibridge.allergy.service.entity;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package com.medibridge.pas.config;
+package com.medibridge.allergy.service.config;
 /*
  * import org.springframework.context.annotation.Configuration;
  * 
