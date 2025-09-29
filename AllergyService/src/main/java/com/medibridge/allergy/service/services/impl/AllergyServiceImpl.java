@@ -1,13 +1,13 @@
-package com.medibridge.pas.service.impl;
+package com.medibridge.allergy.service.services.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.medibridge.pas.entity.Allergy;
-import com.medibridge.pas.entity.AllergyRepository;
-import com.medibridge.pas.service.AllergyService;
+import com.medibridge.allergy.service.entity.Allergy;
+import com.medibridge.allergy.service.entity.AllergyRepository;
+import com.medibridge.allergy.service.services.AllergyService;
 
 @Service
 public class AllergyServiceImpl implements AllergyService	{

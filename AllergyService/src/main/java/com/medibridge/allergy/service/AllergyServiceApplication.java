@@ -1,8 +1,7 @@
-package com.medibridge.pas;
+package com.medibridge.allergy.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 
 @SpringBootApplication
